@@ -1,0 +1,16 @@
+# --- 系統層級 ---
+.DS_Store
+Thumbs.db
+
+# --- 專案開發層級 ---
+.vscode/
+.idea/
+
+# --- 容器與資料庫 ---
+# 這是最重要的，不要把資料庫的實體檔案推上去！
+postgres_data/
+storage/
+
+# --- 環境變數 ---
+.env
+.env.local
