@@ -1,0 +1,16 @@
+# Python
+__pycache__/
+*.py[oc]
+.venv/
+*.db
+*.sqlite3
+uploads/
+.coverage
+htmlcov/
+.pytest_cache/
+
+# Env
+.env
+
+# Other
+.DS_Store
